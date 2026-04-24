@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Activity, ShieldAlert, Cpu, CheckCircle } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -111,7 +111,7 @@ export default function Dashboard() {
             </span>
           </h2>
           <div className="flex-1 overflow-hidden space-y-3">
-            {txs.map((tx, i) => (
+            {txs.map((tx,) => (
               <motion.div 
                 layout
                 initial={{ opacity: 0, x: 20 }}

@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { Shield, Hexagon, Cpu, Link as LinkIcon, ArrowRight, Activity, Globe, BarChart, FileText, Search, Brain, Network } from 'lucide-react';
+import { Hexagon, Cpu, Link as LinkIcon, ArrowRight, Activity, Globe, BarChart, FileText, Search, Brain, Network } from 'lucide-react';
 
 export default function LandingPage() {
   const navigate = useNavigate();
