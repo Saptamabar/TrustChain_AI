@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Search, Filter, MoreVertical, ShieldAlert } from 'lucide-react';
+import { useState } from 'react';
+import { Search, Filter, ShieldAlert } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const MOCK_CASES = [

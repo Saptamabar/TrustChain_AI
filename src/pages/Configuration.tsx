@@ -1,5 +1,4 @@
-import React from 'react';
-import { Settings, Save, Link as LinkIcon, Database, Key } from 'lucide-react';
+import { Save, Link as Database, Key } from 'lucide-react';
 
 export default function Configuration() {
   return (
